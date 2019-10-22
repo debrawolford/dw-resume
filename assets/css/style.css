@@ -13,6 +13,14 @@
   background-color: #f4f4f4;
 }
 
+.bg-color-work-history {
+  background-color: #497E99;
+}
+
+.bg-color-contact {
+  background-color: #ffffff;
+}
+
 .ui-menu-color-home {
   background-color: #9FBDCC;
 }
@@ -27,10 +35,6 @@
 
 .ui-menu-color-download {
   background-color: #CC9FA3;
-}
-
-.bg-color-work-history {
-  background-color: #497E99;
 }
 
 /* ------------------- Special paddings/margins/texts */
@@ -175,7 +179,6 @@ header {
 }
 
 /* ------------------- Footer */
-
 footer {
   background-color: #E0FFF9;
   color: #497E99;
@@ -219,7 +222,7 @@ footer {
 }
 
 .social-links li a i:hover {
-    background-color: #FFACA1
+  background-color: #FFACA1
 }
 
 #footer-details {
@@ -227,7 +230,6 @@ footer {
 }
 
 /* ------------------- Three Reasons */
-
 .three-reasons-icon {
   font-size: 26px;
   color: #9FBDCC;
@@ -238,7 +240,6 @@ footer {
 }
 
 /* ------------------- Personal Info */
-
 .personal-info-item {
   margin-bottom: 20px;
   display: block;
@@ -273,7 +274,6 @@ footer {
 }
 
 /* ------------------- Skills */
-
 .progress {
   position: relative;
   height: 25px;
@@ -294,7 +294,6 @@ footer {
 }
 
 /* ------------------- Work History */
-
 .history-heading {
   color: #fafafa;
   margin-bottom: 50px;
@@ -339,4 +338,37 @@ footer {
 
 .history-items {
   margin-bottom: 30px;
+}
+
+/* ------------------- Contact Form */
+.contact-heading {
+  font-family: "Exo", sans-serif;
+  font-weight: 300;
+  margin-top: 25px;
+  margin-bottom: 20px;
+}
+
+.center-form {
+  padding-top: 10px;
+  margin: 0 auto;
+  max-width: 70%;
+}
+
+button[type="submit"] {
+  margin-top: 15px;
+  margin-bottom: 20px;
+  color: #fafafa;
+  background-color: #FFACA1;
+  border: 0;
+  border-radius: 10px;
+}
+
+/* ------------------- Media Query */
+@media (min-width: 992px) {
+  .center-form {
+    padding-top: 30px;
+    min-height: 240px;
+    margin: 0 auto;
+    max-width: 50%;
+  }
 }
