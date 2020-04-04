@@ -22,7 +22,7 @@
 }
 
 .bg-color-groups {
-    background-color: #ffffff;
+  background-color: #ffffff;
 }
 
 .bg-color-contact {
@@ -46,11 +46,11 @@
 }
 
 .ui-menu-color-github {
-    background-color: #9FBDCC;
+  background-color: #9FBDCC;
 }
 
 .ui-menu-color-interests {
-    background-color: #CC9FA3;
+  background-color: #CC9FA3;
 }
 
 /* ------------------- Special paddings/margins/texts */
@@ -380,20 +380,22 @@ button[type="submit"] {
 }
 
 /*--------------------------------------------Map*/
-div#map {min-height: 360px;}
+div#map {
+  min-height: 360px;
+}
 
 /* ------------------- Media Query */
 @media(min-width: 992px) {
-    .section-column {
-        padding: 0 30px 30px;
-        float: none;
-        display: table-cell;
-    }
+  .section-column {
+    padding: 0 30px 30px;
+    float: none;
+    display: table-cell;
+  }
 
-    .center-form {
-        padding-top: 30px;
-        min-height: 240px;
-        margin: 0 auto;
-        max-width: 50%;
-    }
+  .center-form {
+    padding-top: 30px;
+    min-height: 240px;
+    margin: 0 auto;
+    max-width: 50%;
+  }
 }
