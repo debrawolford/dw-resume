@@ -17,6 +17,14 @@
   background-color: #497E99;
 }
 
+.bg-color-conferences {
+  background-color: #f4f4f4;
+}
+
+.bg-color-groups {
+    background-color: #ffffff;
+}
+
 .bg-color-contact {
   background-color: #ffffff;
 }
@@ -34,7 +42,15 @@
 }
 
 .ui-menu-color-download {
-  background-color: #CC9FA3;
+  background-color: #497E99;
+}
+
+.ui-menu-color-github {
+    background-color: #9FBDCC;
+}
+
+.ui-menu-color-interests {
+    background-color: #CC9FA3;
 }
 
 /* ------------------- Special paddings/margins/texts */
@@ -363,12 +379,21 @@ button[type="submit"] {
   border-radius: 10px;
 }
 
+/*--------------------------------------------Map*/
+div#map {min-height: 360px;}
+
 /* ------------------- Media Query */
-@media (min-width: 992px) {
-  .center-form {
-    padding-top: 30px;
-    min-height: 240px;
-    margin: 0 auto;
-    max-width: 50%;
-  }
+@media(min-width: 992px) {
+    .section-column {
+        padding: 0 30px 30px;
+        float: none;
+        display: table-cell;
+    }
+
+    .center-form {
+        padding-top: 30px;
+        min-height: 240px;
+        margin: 0 auto;
+        max-width: 50%;
+    }
 }
