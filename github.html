@@ -8,9 +8,14 @@
   <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css" />
+  <link rel="stylesheet" href="assets/css/github-styles.css" type="text/css">
   <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script type="text/javascript" src="assets/js/github-information.js"></script>
   <title>Debra Wolford</title>
 </head>
+
 <body>
   <header>
     <div class="row no-gutters">
@@ -38,49 +43,51 @@
       </div>
     </div>
   </header>
-    <section class="container-fluid">
-        <div class="row bg-color-contact">
-            <div>
-                <h3 class="contact-heading uppercase text-center">View My GitHub Projects:</h3>
-                <h5 class="uppercase text-center">(or change the username to search for other user profiles)</h5>
-            </div>
+  <section class="container-fluid">
+    <div class="row bg-color-contact">
+      <div class="col">
+        <div>
+          <h3 class="contact-heading uppercase text-center">View My GitHub Projects:</h3>
+          <h5 class="uppercase text-center">(or change the username to search for other user profiles)</h5>
+        </div>
 
-            <div class="center-form">
-                <input type="text" id="gh-username" value="debrawolford" oninput="fetchGitHubInformation()">
-                <div id="gh-user-data" class="clearfix"></div>
-                <div id="gh-repo-data" class="clearfix"></div>
-            </div>
-        </div>
-    </section>
-    <footer class="container-fluid">
-      <div id="footer-details" class="row">
-        <div class="col-sm-4">
-          <h5 class="uppercase general-sub">About</h5>
-          <p class="inline-block">
-            Junior Full-Stack Web Developer. Working knowledge of HTML, CSS, Javascript, Python and SQL.
-          </p>
-        </div>
-        <div class="col-sm-4">
-          <h5 class="uppercase general-sub">Download my CV</h5>
-          <p class="inline-block"> Want a printable version of my CV? You can download it here: <a href="assets/cv.pdf" target="_blank" class="cv-pdf"><i class="fa fa-download" aria-hidden="true"></i><span class="sr-only">Download link.</span></a>
-          </p>
-        </div>
-        <div class="col-sm-4">
-          <h5 class="uppercase general-sub">Social</h5>
-          <ul class="list-inline social-links">
-            <li class="list-inline-item">
-              <a target="_blank" href="https://www.facebook.com/debra.wolford.5"><i class="fa fa-facebook" aria-hidden="true"></i><span class="sr-only">Facebook</span></a>
-            </li>
-            <li class="list-inline-item">
-              <a target="_blank" href="https://www.linkedin.com/in/debra-wolford-821b52142"><i class="fa fa-linkedin" aria-hidden="true"></i><span class="sr-only">LinkedIn</span></a>
-            </li>
-            <li class="list-inline-item">
-              <a target="_blank" href="https://github.com/debrawolford"><i class="fa fa-github" aria-hidden="true"></i><span class="sr-only">GitHub</span></a>
-            </li>
-          </ul>
+        <div class="center-form">
+          <input type="text" id="gh-username" value="debrawolford" oninput="fetchGitHubInformation()" />
+          <div id="gh-user-data"></div>
+          <div id="gh-repo-data"></div>
         </div>
       </div>
-    </footer>
+    </div>
+  </section>
+  <footer class="container-fluid">
+    <div id="footer-details" class="row">
+      <div class="col-sm-4">
+        <h5 class="uppercase general-sub">About</h5>
+        <p class="inline-block">
+          Junior Full-Stack Web Developer. Working knowledge of HTML, CSS, Javascript, Python and SQL.
+        </p>
+      </div>
+      <div class="col-sm-4">
+        <h5 class="uppercase general-sub">Download my CV</h5>
+        <p class="inline-block"> Want a printable version of my CV? You can download it here: <a href="assets/cv.pdf" target="_blank" class="cv-pdf"><i class="fa fa-download" aria-hidden="true"></i><span class="sr-only">Download link.</span></a>
+        </p>
+      </div>
+      <div class="col-sm-4">
+        <h5 class="uppercase general-sub">Social</h5>
+        <ul class="list-inline social-links">
+          <li class="list-inline-item">
+            <a target="_blank" href="https://www.facebook.com/debra.wolford.5"><i class="fa fa-facebook" aria-hidden="true"></i><span class="sr-only">Facebook</span></a>
+          </li>
+          <li class="list-inline-item">
+            <a target="_blank" href="https://www.linkedin.com/in/debra-wolford-821b52142"><i class="fa fa-linkedin" aria-hidden="true"></i><span class="sr-only">LinkedIn</span></a>
+          </li>
+          <li class="list-inline-item">
+            <a target="_blank" href="https://github.com/debrawolford"><i class="fa fa-github" aria-hidden="true"></i><span class="sr-only">GitHub</span></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </footer>
 </body>
 
 </html>
