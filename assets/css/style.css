@@ -49,12 +49,15 @@
   background-color: #9FBDCC;
 }
 
-.ui-menu-color-interests {
+.ui-menu-color-projects {
   background-color: #CC9FA3;
 }
 
 /* ------------------- Special paddings/margins/texts */
-h1, h2, h3, h4 {
+h1,
+h2,
+h3,
+h4 {
   margin: 0;
 }
 
@@ -188,7 +191,9 @@ header {
   transition-property: box-shadow, transform;
 }
 
-.hvr-grow-shadow:hover, .hvr-grow-shadow:focus, .hvr-grow-shadow:active {
+.hvr-grow-shadow:hover,
+.hvr-grow-shadow:focus,
+.hvr-grow-shadow:active {
   box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5);
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
